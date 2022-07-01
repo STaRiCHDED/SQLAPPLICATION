@@ -3,7 +3,7 @@
 Console.WriteLine("Hello, World!");
 
 var dataBase = new ApplicationContext();
-/*
+
 var buyers = new List<Buyer>()
 {
     new Buyer("Иван","Иванов","Иванович",1),
@@ -44,7 +44,7 @@ dataBase.Products.AddRange(products);
 dataBase.Sales.AddRange(sales);
 dataBase.Wallets.AddRange(wallets);
 dataBase.SaveChanges();
-*/
+
 
 Console.WriteLine("\nSelectAll\n");
 var sales1 = dataBase.Sales.ToList();
